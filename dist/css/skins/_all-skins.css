@@ -769,6 +769,9 @@
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 0;
 }
+.skin-green .treeview-menu > li > a:hover {
+  background-color: #00a65a;
+}
 /*
  * Skin: Green
  * -----------
