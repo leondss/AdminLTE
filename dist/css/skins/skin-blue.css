@@ -132,6 +132,9 @@
   border-bottom-right-radius: 2px;
   border-bottom-left-radius: 0;
 }
+.skin-blue .treeview-menu > li > a:hover {
+  background-color: #3c8dbc;
+}
 .skin-blue.layout-top-nav .main-header > .logo {
   background-color: #3c8dbc;
   color: #ffffff;
