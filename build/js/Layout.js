@@ -85,7 +85,9 @@
 
     // Get window height and the wrapper height
     var footerHeight  = $(Selector.mainFooter).outerHeight() || 0
-    var neg           = $(Selector.mainHeader).outerHeight() + footerHeight
+    // var neg           = $(Selector.mainHeader).outerHeight() + footerHeight
+    // LEON
+    var neg           = footerHeight
     var windowHeight  = $(window).height()
     var sidebarHeight = $(Selector.sidebar).height() || 0
 
